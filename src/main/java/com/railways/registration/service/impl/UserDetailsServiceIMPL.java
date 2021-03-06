@@ -24,7 +24,7 @@ public class UserDetailsServiceIMPL implements UserDetailsService {
             responseDTO.setAge(userDetails.getAge());
             responseDTO.setEmail(userDetails.getEmail());
             responseDTO.setFname(userDetails.getFname());
-            responseDTO.setLname(userDetails.getLname());
+             responseDTO.setLname(userDetails.getLname());
             responseDTO.setUserName(userDetails.getUserName());
             responseDTO.setMname(userDetails.getMname());
             responseDTO.setPhoneNumber(userDetails.getPhoneNumber());
